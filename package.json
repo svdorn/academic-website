@@ -1,11 +1,15 @@
 {
-  "name": "personal-website",
+  "name": "stephen-dorn-website",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "^5.0.1"
+  },
+  "engines": {
+    "node": "20.14.0",
+    "npm": "10.7.0"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
