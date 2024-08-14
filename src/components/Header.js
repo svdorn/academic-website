@@ -40,7 +40,7 @@ Header.propTypes = {
   styles: PropTypes.object.isRequired
 };
 
-export default withStyles(({ color }) => ({
+export default withStyles(() => ({
   container: {
     padding: "10px 20px 20px"
   },

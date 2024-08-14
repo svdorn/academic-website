@@ -1,5 +1,6 @@
 {
   "name": "stephen-dorn-website",
+  "homepage": "http://svdorn.github.io",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,8 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts --openssl-legacy-provider test",
-    "eject": "react-scripts --openssl-legacy-provider eject"
+    "eject": "react-scripts --openssl-legacy-provider eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

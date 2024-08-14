@@ -23,7 +23,7 @@ App.propTypes = {
   styles: PropTypes.object.isRequired
 };
 
-export default withStyles(({ color }) => ({
+export default withStyles(() => ({
   container: {
     textAlign: "center",
     padding: "50px 0",
