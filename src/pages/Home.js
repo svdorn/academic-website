@@ -40,7 +40,7 @@ class Home extends React.Component {
       <div {...css(styles.container)}>
         <section id="intro" {...css(styles.intro)}>
           <div {...css(styles.intro_words_container)}>
-            <h2 {...css(styles.intro_header)}>Stephen Dorn</h2>
+            <h1 {...css(styles.intro_header)}>Stephen Dorn</h1>
             <p {...css(styles.intro_p)}>I am a Master's student in Biomedical Data Science at UW-Madison working with Prof. <a {...css(styles.intro_p_link)} href="https://qlu-lab.org/" target="_blank"
                   rel="noopener noreferrer">Qiongshi Lu</a>. I completed a Bachelor's in Computer Science and Finance from UW-Madison.</p>
           </div>
