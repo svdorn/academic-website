@@ -58,10 +58,7 @@ export default withStyles(() => ({
   menu_items: {
     display: "flex",
     float: "right",
-    marginTop: "20px",
-    "@media (max-width: 700px)": {
-      display: "none"
-    }
+    marginTop: "20px"
   },
 
   menu_item: {
@@ -73,6 +70,9 @@ export default withStyles(() => ({
     opacity: "0.6",
     ":hover": {
       opacity: "1"
+    },
+    "@media (max-width: 700px)": {
+      display: "none"
     }
   }
 }))(Header);

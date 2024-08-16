@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Chip from "@material-ui/core/Chip";
 import Icon from "@material-ui/core/Icon";
+import ResearchList from "../components/software/ResearchList";
 import Social from "../components/Social";
 import SoftwareList from "../components/software/SoftwareList";
 import { css, withStyles } from "../withStyles";
@@ -42,7 +43,9 @@ class Home extends React.Component {
           <div {...css(styles.intro_words_container)}>
             <h1 {...css(styles.intro_header)}>Stephen Dorn</h1>
             <p {...css(styles.intro_p)}>I am a Master's student in Biomedical Data Science at UW-Madison working with Prof. <a {...css(styles.intro_p_link)} href="https://qlu-lab.org/" target="_blank"
-                  rel="noopener noreferrer">Qiongshi Lu</a>. I completed a Bachelor's in Computer Science and Finance from UW-Madison.</p>
+                  rel="noopener noreferrer">Qiongshi Lu</a>. I completed a Bachelor's in Computer Science from UW-Madison and my research interests are:
+            </p>
+            <ResearchList />
           </div>
           <div {...css(styles.social)}>
             <Social />
@@ -139,31 +142,32 @@ export default withStyles(({ color }) => ({
     backgroundColor: color.primary,
     height: "calc(100vh)",
     minHeight: "600px",
-    "@media (max-width: 1000px)": {
-      height: "700px"
+    "@media (max-width: 1050px)": {
+      height: "auto",
+      paddingTop:"120px",
+      paddingBottom: "60px"
     },
     "@media (max-width: 500px)": {
-      height: "750px"
+      paddingTop:"100px",
     }
   },
 
   intro_words_container: {
     verticalAlign: "middle",
     width: "1030px",
-    display:"inline-block",
-    paddingTop: "10%",
+    paddingTop: "8%",
+    margin: "auto",
     color: "white",
     "@media (max-width: 1050px)": {
-      paddingTop: "150px",
-      width: "70%",
+      width: "80%",
     },
     "@media (max-width: 500px)": {
-      paddingTop: "150px",
+      width: "90%"
     }
   },
 
   intro_header: {
-    fontSize: "44px",
+    fontSize: "36px",
     fontWeight: "800",
     "@media (max-width: 1000px)": {
       fontSize: "32px"
@@ -266,7 +270,10 @@ export default withStyles(({ color }) => ({
     right: "0",
     left: "0",
     marginLeft: "auto",
-    marginRight: "auto"
+    marginRight: "auto",
+    "@media (max-width: 1050px)": {
+      display: "none"
+    }
   },
 
   chip: {
