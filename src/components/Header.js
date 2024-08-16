@@ -52,7 +52,11 @@ export default withStyles(() => ({
   },
 
   social: {
-    marginTop: "-5px"
+    marginTop: "-5px",
+    display: "none",
+    "@media (max-width: 1050px)": {
+      display: "inline-block"
+    }
   },
 
   menu_items: {
