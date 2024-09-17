@@ -142,6 +142,9 @@ export default withStyles(({ color }) => ({
     backgroundColor: color.primary,
     height: "calc(100vh)",
     minHeight: "600px",
+    "@media (min-height: 900px)": {
+      height: "900px"
+    },
     "@media (max-width: 1050px)": {
       height: "auto",
       paddingTop:"120px",
@@ -271,6 +274,9 @@ export default withStyles(({ color }) => ({
     left: "0",
     marginLeft: "auto",
     marginRight: "auto",
+    "@media (min-height: 900px)": {
+      display: "none"
+    },
     "@media (max-width: 1050px)": {
       display: "none"
     }

@@ -54,6 +54,9 @@ export default withStyles(() => ({
   social: {
     marginTop: "-5px",
     display: "none",
+    "@media (min-height: 900px)": {
+      display: "inline-block"
+    },
     "@media (max-width: 1050px)": {
       display: "inline-block"
     }
