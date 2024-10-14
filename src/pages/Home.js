@@ -13,7 +13,7 @@ const publications = [
     link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10888957/",
     authors: <div>Z Zhao, X Yang, <b>S Dorn</b>, J Miao, SH Barcellos, JM Fletcher, Q Lu (2024)</div>,
     preprint: "https://www.biorxiv.org/content/10.1101/2024.02.12.579913v1",
-    journal: "<i>Proceedings of the National Academy of Sciences</i>, in press",
+    journal: "Proceedings of the National Academy of Sciences, in press",
     software: {
       name: "PENGUIN",
       link: "https://github.com/qlu-lab/PENGUIN"
@@ -24,7 +24,7 @@ const publications = [
     link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10614766/",
     authors: <div>Y Wu, Z Sun, Q Zheng, J Miao, <b>S Dorn</b>, S Mukherjee, JM Fletcher, Q Lu (2024)</div>,
     preprint: "https://www.biorxiv.org/content/10.1101/2023.10.13.562272v1",
-    journal: "<i>Nature Genetics</i>, in press",
+    journal: "Nature Genetics, in press",
     software: {
       name: "GSUB",
       link: "https://github.com/qlu-lab/GSUB"
