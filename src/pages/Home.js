@@ -14,7 +14,7 @@ const publications = [
     authors: <div>Z Zhao, X Yang, <b>S Dorn</b>, J Miao, SH Barcellos, JM Fletcher, Q Lu (2024)</div>,
     published_journal: "https://www.pnas.org/doi/10.1073/pnas.2408715121",
     preprint: "https://www.biorxiv.org/content/10.1101/2024.02.12.579913v1",
-    journal: "Proceedings of the National Academy of Sciences",
+    journal: "Proceedings of the National Academy of Sciences (PNAS)",
     software: {
       name: "PENGUIN",
       link: "https://github.com/qlu-lab/PENGUIN"
