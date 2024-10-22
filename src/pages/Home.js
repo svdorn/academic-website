@@ -10,7 +10,7 @@ import { css, withStyles } from "../withStyles";
 const publications = [
   {
     name: "Controlling for polygenic genetic confounding in epidemiologic association studies",
-    link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10888957/",
+    link: "https://pubmed.ncbi.nlm.nih.gov/39432782/",
     authors: <div>Z Zhao, X Yang, <b>S Dorn</b>, J Miao, SH Barcellos, JM Fletcher, Q Lu (2024)</div>,
     published_journal: "https://www.pnas.org/doi/10.1073/pnas.2408715121",
     preprint: "https://www.biorxiv.org/content/10.1101/2024.02.12.579913v1",
