@@ -9,25 +9,13 @@ import { css, withStyles } from "../withStyles";
 
 const publications = [
   {
-    name: "One score to rule them all: regularized ensemble polygenic risk prediction with GWAS summary statistics.",
+    name: "One score to rule them all: regularized ensemble polygenic risk prediction with GWAS summary statistics",
     link: "https://github.com/qlu-lab/PUMAS",
     authors: <div>Z Zhao*, <b>S Dorn*</b>, Y Wu, X Yang, J Jin, Q Lu (2024)</div>,
     journal: "Manuscript available upon request",
     software: {
       name: "PUMAS",
       link: "https://github.com/qlu-lab/PUMAS"
-    }
-  },
-  {
-    name: "Controlling for polygenic genetic confounding in epidemiologic association studies",
-    link: "https://pubmed.ncbi.nlm.nih.gov/39432782/",
-    authors: <div>Z Zhao, X Yang, <b>S Dorn</b>, J Miao, SH Barcellos, JM Fletcher, Q Lu (2024)</div>,
-    published_journal: "https://www.pnas.org/doi/10.1073/pnas.2408715121",
-    preprint: "https://www.biorxiv.org/content/10.1101/2024.02.12.579913v1",
-    journal: "Proceedings of the National Academy of Sciences (PNAS)",
-    software: {
-      name: "PENGUIN",
-      link: "https://github.com/qlu-lab/PENGUIN"
     }
   },
   {
@@ -40,6 +28,18 @@ const publications = [
     software: {
       name: "GSUB",
       link: "https://github.com/qlu-lab/GSUB"
+    }
+  },
+  {
+    name: "Controlling for polygenic genetic confounding in epidemiologic association studies",
+    link: "https://pubmed.ncbi.nlm.nih.gov/39432782/",
+    authors: <div>Z Zhao, X Yang, <b>S Dorn</b>, J Miao, SH Barcellos, JM Fletcher, Q Lu (2024)</div>,
+    published_journal: "https://www.pnas.org/doi/10.1073/pnas.2408715121",
+    preprint: "https://www.biorxiv.org/content/10.1101/2024.02.12.579913v1",
+    journal: "Proceedings of the National Academy of Sciences (PNAS)",
+    software: {
+      name: "PENGUIN",
+      link: "https://github.com/qlu-lab/PENGUIN"
     }
   }
 ];
