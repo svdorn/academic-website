@@ -66,6 +66,7 @@ class Home extends React.Component {
         <section id="publications" {...css(styles.publications_container)}>
           <h1 {...css(styles.publications_header)}>Publications</h1>
           <div>
+            <p>I am applying for PhD programs for Fall 2025. You can view my <a {...css(styles.publication_name)} href="https://drive.google.com/file/d/1MEEB5EIy-d1WTwfebV4ZQG41C48lLOGY/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>.</p>
             {publications.map(publication => (
                   <p
                     key={publication.name}
@@ -124,7 +125,6 @@ class Home extends React.Component {
                   </p>
                 ))}
             <p><b>*</b> indicates authors with equal contribution</p>
-            <p>I am applying for PhD programs for Fall 2025. You can view my <a {...css(styles.publication_name)} href="https://drive.google.com/file/d/1MEEB5EIy-d1WTwfebV4ZQG41C48lLOGY/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>.</p>
           </div>
         </section>
         <section id="software" {...css(styles.software)}>
