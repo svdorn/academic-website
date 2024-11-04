@@ -55,7 +55,7 @@ class Home extends React.Component {
           <div {...css(styles.intro_words_container)}>
             <h1 {...css(styles.intro_header)}>Stephen Dorn</h1>
             <p {...css(styles.intro_p)}>I am a Master's student in Biomedical Data Science at UW-Madison working with Prof. <a {...css(styles.intro_p_link)} href="https://qlu-lab.org/" target="_blank"
-                  rel="noopener noreferrer">Qiongshi Lu</a>. I am applying for PhDs for Fall 2025. Please view my <a href="https://drive.google.com/file/d/1MEEB5EIy-d1WTwfebV4ZQG41C48lLOGY/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>. My research interests are:
+                  rel="noopener noreferrer">Qiongshi Lu</a>. I am applying for PhD programs for Fall 2025. You can view my <a {...css(styles.intro_p_link)} href="https://drive.google.com/file/d/1MEEB5EIy-d1WTwfebV4ZQG41C48lLOGY/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>. My research interests are:
             </p>
             <ResearchList />
           </div>
@@ -124,7 +124,7 @@ class Home extends React.Component {
                   </p>
                 ))}
             <p><b>*</b> indicates authors with equal contribution</p>
-            <p>I am applying for PhD for Fall 2025. Please view my <a href="https://drive.google.com/file/d/1MEEB5EIy-d1WTwfebV4ZQG41C48lLOGY/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>.</p>
+            <p>I am applying for PhD programs for Fall 2025. You can view my <a {...css(styles.publication_name)} href="https://drive.google.com/file/d/1MEEB5EIy-d1WTwfebV4ZQG41C48lLOGY/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>.</p>
           </div>
         </section>
         <section id="software" {...css(styles.software)}>
