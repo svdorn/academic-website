@@ -10,9 +10,10 @@ import { css, withStyles } from "../withStyles";
 const publications = [
   {
     name: "One score to rule them all: regularized ensemble polygenic risk prediction with GWAS summary statistics",
-    link: "https://github.com/qlu-lab/PUMAS",
+    link: "https://doi.org/10.1101/2024.11.27.625748",
     authors: <div>Z Zhao*, <b>S Dorn*</b>, Y Wu, X Yang, J Jin, Q Lu (2024)</div>,
-    journal: "Manuscript available upon request",
+    preprint: "https://doi.org/10.1101/2024.11.27.625748",
+    journal: "Submitted (preprint available of bioRxiv)",
     software: {
       name: "PUMAS",
       link: "https://github.com/qlu-lab/PUMAS"
