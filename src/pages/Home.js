@@ -20,18 +20,6 @@ const publications = [
     }
   },
   {
-    name: "Pervasive biases in proxy GWAS based on parental history of Alzheimer’s disease",
-    link: "https://www.nature.com/articles/s41588-024-01963-9",
-    authors: <div>Y Wu*, Z Sun*, Q Zheng, J Miao, <b>S Dorn</b>, S Mukherjee, JM Fletcher, Q Lu (2024)</div>,
-    published_journal: "https://www.nature.com/articles/s41588-024-01963-9",
-    preprint: "https://www.biorxiv.org/content/10.1101/2023.10.13.562272v1",
-    journal: "Nature Genetics",
-    software: {
-      name: "GSUB",
-      link: "https://github.com/qlu-lab/GSUB"
-    }
-  },
-  {
     name: "Controlling for polygenic genetic confounding in epidemiologic association studies",
     link: "https://www.pnas.org/doi/10.1073/pnas.2408715121",
     authors: <div>Z Zhao, X Yang, <b>S Dorn</b>, J Miao, SH Barcellos, JM Fletcher, Q Lu (2024)</div>,
@@ -41,6 +29,18 @@ const publications = [
     software: {
       name: "PENGUIN",
       link: "https://github.com/qlu-lab/PENGUIN"
+    }
+  },
+  {
+    name: "Pervasive biases in proxy GWAS based on parental history of Alzheimer’s disease",
+    link: "https://www.nature.com/articles/s41588-024-01963-9",
+    authors: <div>Y Wu*, Z Sun*, Q Zheng, J Miao, <b>S Dorn</b>, S Mukherjee, JM Fletcher, Q Lu (2024)</div>,
+    published_journal: "https://www.nature.com/articles/s41588-024-01963-9",
+    preprint: "https://www.biorxiv.org/content/10.1101/2023.10.13.562272v1",
+    journal: "Nature Genetics",
+    software: {
+      name: "GSUB",
+      link: "https://github.com/qlu-lab/GSUB"
     }
   }
 ];
@@ -56,7 +56,7 @@ class Home extends React.Component {
           <div {...css(styles.intro_words_container)}>
             <h1 {...css(styles.intro_header)}>Stephen Dorn</h1>
             <p {...css(styles.intro_p)}>I am a Master's student in Biomedical Data Science at UW-Madison working with Prof. <a {...css(styles.intro_p_link)} href="https://qlu-lab.org/" target="_blank"
-                  rel="noopener noreferrer">Qiongshi Lu</a>. I am applying for PhD programs for Fall 2025. You can view my <a {...css(styles.intro_p_link)} href="https://drive.google.com/file/d/1MEEB5EIy-d1WTwfebV4ZQG41C48lLOGY/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>. My research interests are:
+                  rel="noopener noreferrer">Qiongshi Lu</a>. I am applying for PhD programs for Fall 2025. You can view my <a {...css(styles.intro_p_link)} href="https://drive.google.com/file/d/1nvXF0ycbb2oJ5gzRPo8imu6eJZibw3qv/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>. My research interests are:
             </p>
             <ResearchList />
           </div>
@@ -67,7 +67,7 @@ class Home extends React.Component {
         <section id="publications" {...css(styles.publications_container)}>
           <h1 {...css(styles.publications_header)}>Publications</h1>
           <div>
-            <p>I am applying for PhD programs for Fall 2025. You can view my <a {...css(styles.publication_name)} href="https://drive.google.com/file/d/1MEEB5EIy-d1WTwfebV4ZQG41C48lLOGY/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>.</p>
+            <p>I am applying for PhD programs for Fall 2025. You can view my <a {...css(styles.publication_name)} href="https://drive.google.com/file/d/1nvXF0ycbb2oJ5gzRPo8imu6eJZibw3qv/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>.</p>
             {publications.map(publication => (
                   <p
                     key={publication.name}
