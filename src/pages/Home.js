@@ -9,9 +9,16 @@ import { css, withStyles } from "../withStyles";
 
 const publications = [
   {
+    name: "Genetic basis of partner choice",
+    link: "https://doi.org/10.1101/2025.02.03.636375",
+    authors: <div>Q Zheng*, S van Alten*, T Lyngstad*, E Ciscato*, Z Sun, J Miao, Y Wu, <b>S Dorn</b>, B Zheng, A Havdahl, E Corfield, M Nivard, T Galama, P Turley, P Chiappori, JM Fletcher, Q Lu (2025)</div>,
+    preprint: "https://doi.org/10.1101/2025.02.03.636375",
+    journal: "Submitted (preprint available of bioRxiv)"
+  },
+  {
     name: "One score to rule them all: regularized ensemble polygenic risk prediction with GWAS summary statistics",
     link: "https://doi.org/10.1101/2024.11.27.625748",
-    authors: <div>Z Zhao*, <b>S Dorn*</b>, Y Wu, X Yang, J Jin, Q Lu (2024)</div>,
+    authors: <div>Z Zhao*, <b>S Dorn*</b>, Y Wu, X Yang, J Jin, Q Lu (2025)</div>,
     preprint: "https://doi.org/10.1101/2024.11.27.625748",
     journal: "Submitted (preprint available of bioRxiv)",
     software: {
