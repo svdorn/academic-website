@@ -6,7 +6,7 @@ const icons = [
   { name: "twitter", href: "https://x.com/stphn_drn" },
   { name: "github", href: "https://github.com/svdorn" },
   { name: "googlescholar", href: "https://scholar.google.com/citations?user=Ysb-abIAAAAJ&hl=en" },
-  { name: "email", href: "mailto:svdorn@wisc.edu" }
+  { name: "email", href: "mailto:stephendorn@g.ucla.edu" }
 ];
 
 function Social({ styles }) {

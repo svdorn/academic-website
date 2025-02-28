@@ -153,7 +153,7 @@ class Home extends React.Component {
           </div>
           <div>
             <Icon {...css(styles.contact_icon)}>email</Icon>{" "}
-            svdorn@wisc.edu
+            stephendorn@g.ucla.edu
           </div>
         </section>
       </div>
