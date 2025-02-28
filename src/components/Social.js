@@ -50,9 +50,9 @@ export default withStyles(() => ({
   },
 
   image: {
-    height: "40p !important"
+    height: "40px"
   },
   "@media (max-width: 1050px)": {
-    height: "34px !important"
+    height: "34px"
   }
 }))(Social);
