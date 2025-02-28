@@ -223,7 +223,7 @@ export default withStyles(({ color }) => ({
   },
   intro_p_link: {
     color: "white",
-    fontWeight: "500",
+    fontWeight: "600",
 
   },
 
