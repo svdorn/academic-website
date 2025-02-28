@@ -50,7 +50,7 @@ export default withStyles(() => ({
   },
 
   image: {
-    height: "40px"
+    height: "40p !important"
   },
   "@media (max-width: 1050px)": {
     height: "34px"
