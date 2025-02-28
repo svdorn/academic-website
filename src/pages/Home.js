@@ -62,7 +62,7 @@ class Home extends React.Component {
         <section id="intro" {...css(styles.intro)}>
           <div {...css(styles.intro_words_container)}>
             <h1 {...css(styles.intro_header)}>Stephen Dorn</h1>
-            <p {...css(styles.intro_p)}>I am an incoming PhD student at UCLA in the Computational Medicine Department. You can view my <a {...css(styles.intro_p_link)} href="https://drive.google.com/file/d/1nvXF0ycbb2oJ5gzRPo8imu6eJZibw3qv/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV here</a>. My research interests are:
+            <p {...css(styles.intro_p)}>I am an incoming PhD student at UCLA in the <a {...css(styles.intro_p_link)} href="https://compmed.ucla.edu/" target="_blank" rel="noopener noreferrer">Computational Medicine Department</a>. My research interests are:
             </p>
             <ResearchList />
           </div>
@@ -223,7 +223,7 @@ export default withStyles(({ color }) => ({
   },
   intro_p_link: {
     color: "white",
-    fontWeight: "700",
+    fontWeight: "500",
 
   },
 
