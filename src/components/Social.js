@@ -6,7 +6,6 @@ const icons = [
   { name: "twitter", href: "https://x.com/stphn_drn" },
   { name: "github", href: "https://github.com/svdorn" },
   { name: "googlescholar", href: "https://scholar.google.com/citations?user=Ysb-abIAAAAJ&hl=en" },
-  { name: "cv", href: "https://drive.google.com/file/d/1nvXF0ycbb2oJ5gzRPo8imu6eJZibw3qv/view?usp=sharing" },
   { name: "email", href: "mailto:svdorn@wisc.edu" }
 ];
 
