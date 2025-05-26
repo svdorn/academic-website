@@ -68,7 +68,7 @@ class Home extends React.Component {
         <section id="intro" {...css(styles.intro)}>
           <div {...css(styles.intro_words_container)}>
             <h1 {...css(styles.intro_header)}>Stephen Dorn</h1>
-            <p {...css(styles.intro_p)}>I am an incoming PhD student at UCLA in the <a {...css(styles.intro_p_link)} href="https://compmed.ucla.edu/" target="_blank" rel="noopener noreferrer">Computational Medicine Department</a>. My research interests are:
+            <p {...css(styles.intro_p)}>I am a PhD student at UCLA in the <a {...css(styles.intro_p_link)} href="https://compmed.ucla.edu/" target="_blank" rel="noopener noreferrer">Computational Medicine Department</a>. My research interests are:
             </p>
             <ResearchList />
           </div>
