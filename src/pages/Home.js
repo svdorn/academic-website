@@ -28,9 +28,11 @@ const publications = [
   },
   {
     name: "Enhancing the discriminatory power of polygenic scores for ADHD and autism in clinical and non-clinical samples",
-    link: "https://www.medrxiv.org/content/10.1101/2022.02.09.22270697v1",
+    link: "https://jneurodevdisorders.biomedcentral.com/articles/10.1186/s11689-025-09620-w",
     authors: <div>J Li, Q He, <b>S Dorn</b>, Z Wang, Q Lu (2025)</div>,
-    journal: "Journal of Neurodevelopmental Disorders, in press"
+    journal: "Journal of Neurodevelopmental Disorders",
+    published_journal: "https://jneurodevdisorders.biomedcentral.com/articles/10.1186/s11689-025-09620-w",
+    preprint: "https://www.medrxiv.org/content/10.1101/2022.02.09.22270697v1",
   },
   {
     name: "Controlling for polygenic genetic confounding in epidemiologic association studies",
