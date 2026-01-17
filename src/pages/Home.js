@@ -9,6 +9,13 @@ import { css, withStyles } from "../withStyles";
 
 const publications = [
   {
+    name: "Causal effect heterogeneity estimation using summary statistics",
+    link: "https://doi.org/10.21203/rs.3.rs-8589460/v1",
+    authors: <div>X Shi, Y Yang, M Bai, J Miao, <b>S Dorn</b>, J Haugstad, J Liu, Q Lu (2025)</div>,
+    preprint: "https://doi.org/10.21203/rs.3.rs-8589460/v1",
+    journal: "Submitted (preprint available)"
+  },
+  {
     name: "Genetic basis of partner choice",
     link: "https://doi.org/10.1101/2025.02.03.636375",
     authors: <div>Q Zheng*, S van Alten*, T Lyngstad*, E Ciscato*, Z Sun, J Miao, Y Wu, <b>S Dorn</b>, B Zheng, A Havdahl, E Corfield, M Nivard, T Galama, P Turley, P Chiappori, JM Fletcher, Q Lu (2025)</div>,
