@@ -11,7 +11,7 @@ const publications = [
   {
     name: "Causal effect heterogeneity estimation using summary statistics",
     link: "https://doi.org/10.21203/rs.3.rs-8589460/v1",
-    authors: <div>X Shi, Y Yang, M Bai, J Miao, <b>S Dorn</b>, J Haugstad, J Liu, Q Lu (2025)</div>,
+    authors: <div>X Shi, Y Yang, M Bai, J Miao, <b>S Dorn</b>, J Haugstad, J Liu, Q Lu (2026)</div>,
     preprint: "https://doi.org/10.21203/rs.3.rs-8589460/v1",
     journal: "Submitted (preprint available)"
   },
